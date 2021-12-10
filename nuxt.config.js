@@ -1,3 +1,5 @@
+import async from 'async';
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -16,11 +18,18 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+        {
+          src: 'https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js',
+          async: true,
+        },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+      '@assets/css/main.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -36,7 +45,21 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://github.com/nuxt-community/google-fonts-module
+    '@nuxtjs/google-fonts',
   ],
+
+  googleFonts: {
+    prefetch: true,
+    families: {
+      Inter: true,
+      'Nunito+Sans': [800, 900],
+    }
+  },
+
+  tailwindcss: {
+    jit: true
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
