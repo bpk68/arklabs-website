@@ -5,29 +5,29 @@
         <div class="lg:grid lg:grid-cols-2 lg:gap-8">
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <div class="lg:py-24">
-              <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                <span class="block">A Yorkshire Shopify agency who create</span>
-                <span class="block text-brand-blue-50">successful Shopify e-commerce solutions</span>
+              <h1 class="mt-4 text-4xl font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-5xl">
+                <span class="block">A Yorkshire <span class="underline" style="text-decoration-color: #E62B4A;">Shopify agency</span> who create</span>
+                <span class="block text-brand-blue-50">successful e-commerce solutions</span>
               </h1>
               <p class="mt-3 text-base text-brand-cream sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                We're a small team of experienced Shopify developers, designers and marketing strategists.
+                We're a close-knit team of expert Shopify developers, designers and marketing strategists.
               </p>
               <div class="mt-10 sm:mt-12">
                 <div class="sm:flex">
-                  <div class="min-w-0 flex-1">
-                    <NuxtLink
-                        to="/contact"
-                        class="block w-full py-3 px-4 rounded-md shadow bg-indigo-500 text-white font-medium hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
+                  <div class="sm:w-1/3">
+                    <a
+                        href="#intro"
+                        class="transition-all duration-300 ease-in-out block w-full py-3 px-4 border border-2 border-brand-red-900 rounded-md shadow bg-brand-red-900 text-white text-lg font-medium hover:bg-brand-red-500 hover:border-brand-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-red-900"
                     >
-                      Learn more
-                    </NuxtLink>
+                      Find out more
+                    </a>
                   </div>
-                  <div class="mt-3 sm:mt-0 sm:ml-3">
+                  <div class="mt-3 sm:mt-0 sm:ml-3 sm:w-1/3">
                     <NuxtLink
                         to="/contact"
-                        class="block w-full py-3 px-4 rounded-md shadow bg-indigo-500 text-white font-medium hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
+                        class="transition-all duration-300 ease-in-out block w-full py-3 px-4 rounded-md shadow border border-2 border-brand-cream font-bold text-brand-cream text-lg font-medium hover:bg-brand-cream hover:text-brand-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-cream focus:ring-offset-gray-900"
                     >
-                      Get in touch
+                      Let's talk
                     </NuxtLink>
                   </div>
                 </div>

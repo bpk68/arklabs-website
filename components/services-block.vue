@@ -1,34 +1,32 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class="py-16 bg-gray-50 overflow-hidden lg:py-24">
+  <div class="py-16 bg-brand-cream overflow-hidden lg:py-36">
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
       <svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
         <defs>
           <pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+            <rect x="0" y="0" width="4" height="4" class="text-red-200" fill="currentColor" />
           </pattern>
         </defs>
         <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
       </svg>
 
-      <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+      <div class="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
         <div class="relative">
-          <h2 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+          <h2 class="text-2xl font-extrabold text-brand-blue-900 sm:text-3xl">
            Our Services
           </h2>
           <p class="mt-3 text-lg text-gray-500">
             Shopify design, e-commerce websites, strategy and consultancy. Everything you need; nothing you don't!
           </p>
 
-          <dl class="mt-10 space-y-10">
-            <div v-for="item in services" :key="item.id" class="relative">
-              <dt @click="handleItemClick(item.id)">
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    {{ item.icon }}
-                  </svg>
+          <dl class="mt-10 space-y-6">
+            <div v-for="item in services" :key="item.id" class="relative bg-red-50 hover:bg-red-200 rounded-lg px-2 pt-2 pb-5 shadow">
+              <dt @click="handleItemClick(item.id)" class="hover:cursor-pointer ">
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-400 text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" v-html="item.icon" />
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900" :id="item.name">{{ item.name }}</p>
+                <p class="ml-16 text-lg text-gray-700 pt-2" :id="item.name">{{ item.name }}</p>
               </dt>
             </div>
           </dl>
@@ -46,11 +44,19 @@
           <div v-for="item in services" :key="item.id">
             <div class="absolute inset-0 flex items-center" :class="{'sr-only': !isItemVisible(item.id)}">
               <div class="ml-12">
-                <h3 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+                <h3 class="text-4xl font-extrabold text-brand-blue-900 sm:text-3xl">
                   {{ item.longName }}
                 </h3>
-                <p class="mt-3 text-base leading-6 text-gray-500">
+                <p class="mt-3 text-xl text-gray-500 tracking-wide leading-relaxed">
                   {{ item.description }}
+                </p>
+                <p class="mt-5">
+                  <NuxtLink
+                    to="/contact"
+                    class="inline-block transition-all duration-300 ease-in-out py-3 px-4 rounded-md shadow border border-2 border-brand-red-900 font-bold text-brand-red-900 font-medium hover:bg-brand-red-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-red-900"
+                  >
+                    Learn more
+                  </NuxtLink>
                 </p>
               </div>
             </div>
@@ -58,15 +64,6 @@
           </div>
         </div>
       </div>
-
-<!--      <svg class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">-->
-<!--        <defs>-->
-<!--          <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">-->
-<!--            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />-->
-<!--          </pattern>-->
-<!--        </defs>-->
-<!--        <rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />-->
-<!--      </svg>-->
     </div>
   </div>
 </template>

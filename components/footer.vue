@@ -2,8 +2,8 @@
   <footer class="bg-brand-cream" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Ark Labs footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-        <div class="grid grid-cols-2 gap-8 xl:col-span-2">
+      <div class="xl:grid xl:grid-cols-4 xl:gap-8">
+        <div class="grid grid-cols-2 gap-8 xl:col-span-3">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
@@ -83,10 +83,10 @@
           <a
             href="https://www.calendar.com/ark-labs/30-min-meeting/duration/"
             target="_blank"
-            class="w-full bg-indigo-600 flex items-center justify-center border border-transparent rounded-md py-2 px-4 text-base font-medium text-white hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="transition-all duration-300 ease-in-out w-auto flex items-center justify-center max-w-md border-2 border-transparent border-brand-blue-900 rounded-md py-2 px-4 text-brand-blue-900 font-medium hover:text-white hover:bg-brand-blue-900 focus:ring-2 focus:ring-offset-2 focus:ring-brand-blue-900"
           >
             <span class="mr-3">Book a quick meeting</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
             </svg>
           </a>

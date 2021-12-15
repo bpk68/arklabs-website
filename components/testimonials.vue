@@ -13,7 +13,7 @@
         <div class="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
             <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Don't just take our word for it</h2>
-            <p class="my-4 pb-4 text-lg leading-6 text-cool-gray-100 border-b border-cool-gray-400">
+            <p class="my-4 pb-4 text-lg leading-6 text-cool-gray-300 border-b border-cool-gray-400">
               We pride ourselves on our work and that’s why our clients love us. But don’t just take our word for it.
             </p>
 
@@ -32,7 +32,7 @@
                 </div>
                 <div class="ml-3">
                   <p class="text-xl font-medium text-white">{{testimonial.name}}</p>
-                  <p class="text-base font-medium text-indigo-100">{{testimonial.title}}</p>
+                  <p class="text-base font-medium text-cool-gray-300">{{testimonial.title}}</p>
                 </div>
               </footer>
             </blockquote>
@@ -94,8 +94,12 @@ export default {
   data() {
     return {
       testimonials,
-      testimonial: testimonials[Math.random() * testimonials.length | 0]
     };
+  },
+  computed: {
+    testimonial: function() {
+      return this.testimonials[Math.random() * this.testimonials.length | 0];
+    }
   }
 }
 </script>
