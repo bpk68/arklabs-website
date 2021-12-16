@@ -65,7 +65,7 @@
 import Vue from 'vue';
 import { generateSocialMeta} from '~/lib/utils';
 
-const title = 'About Rob Kendal, freelance web developer | Shopify developer in York, Leeds | Ark Labs';
+const title = 'About Ark Labs, Shopify e-commerce agency | Shopify websites in York, Leeds, Hull';
 const description = 'We\'re Ark Labs, a Shopify partner and agency specialising in headless e-commerce websites. We work with clients remotely from our offices in Selby, York, North Yorkshire';
 
 export default Vue.extend({
