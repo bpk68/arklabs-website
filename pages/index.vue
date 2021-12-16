@@ -55,5 +55,25 @@
 </template>
 
 <script lang="ts">
-export default {}
+import Vue from 'vue';
+import { generateSocialMeta} from '~/lib/utils';
+
+const title = 'Shopify design, migration & marketing in York and Leeds | Headless e-commerce | Ark Labs';
+const description = 'At Ark Labs, we\'re a Shopify partner agency who build Shopify websites for clients in Selby, Leeds, York, Yorkshire';
+
+export default Vue.extend({
+  head() {
+    return {
+      title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: description
+        },
+        ...generateSocialMeta(title, description, this?.$route?.path),
+      ]
+    }
+  }
+});
 </script>

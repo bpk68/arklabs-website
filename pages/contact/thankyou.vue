@@ -3,10 +3,10 @@
     <div class="bg-brand-blue-900 text-brand-cream">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="font-bold text-white bg-brand-blue-400 rounded-2xl font-sans uppercase py-1 px-3 inline-block">About Ark Labs</h1>
-          <p class="mt-1 text-4xl font-extrabold sm:text-5xl lg:text-6xl font-title">Meet your new Shopify partner</p>
+          <h1 class="font-bold text-white bg-brand-blue-400 rounded-2xl font-sans uppercase py-1 px-3 inline-block">Thank you</h1>
+          <p class="mt-1 text-4xl font-extrabold sm:text-5xl lg:text-6xl font-title">Exciting times ahead</p>
           <p class="max-w-xl mt-5 mx-auto text-xl text-brand-blue-50">
-            We're a Yorkshire-based Shopify agency with clients across the UK and United States.
+            We've got your details and we'll be in touch shortly.
           </p>
         </div>
       </div>
@@ -33,10 +33,11 @@
           <div class="relative md:bg-brand-cream md:p-6">
             <div class="prose prose-brand prose-lg text-gray-500 lg:max-w-none">
 
-              <h2>We're almost ready with this content</h2>
+              <h2>We're at the start of something big</h2>
 
               <p>
-                We're thrilled you want to learn more about us, but bear with us as we put the finishing touches on our content.
+                Thanks for reaching out, we'll be in touch within one business day to discuss your
+                Shopify or website project. We're looking forward to working with you.
               </p>
 
               <p>
@@ -57,7 +58,7 @@
       </div>
     </div>
 
-    <GlobalCta />
+    <GlobalCtaDiscovery />
   </div>
 </template>
 
@@ -65,8 +66,8 @@
 import Vue from 'vue';
 import { generateSocialMeta} from '~/lib/utils';
 
-const title = 'About Rob Kendal, freelance web developer | Shopify developer in York, Leeds | Ark Labs';
-const description = 'We\'re Ark Labs, a Shopify partner and agency specialising in headless e-commerce websites. We work with clients remotely from our offices in Selby, York, North Yorkshire';
+const title = 'Thank you for contacting Ark Labs | A Shopify agency in York, Leeds';
+const description = 'Thank you for contacting Ark Labs. One of our team will be in contact with you shortly about your next Shopify e-commerce project.';
 
 export default Vue.extend({
   head() {
@@ -76,9 +77,9 @@ export default Vue.extend({
         {
           hid: "description",
           name: "description",
-          content: description
+          content: description,
         },
-        ...generateSocialMeta(title, description, this?.$route?.path)
+        ...generateSocialMeta(title, description, this?.$route?.path || '')
       ]
     }
   }

@@ -29,18 +29,38 @@ module.exports = {
           },
           cream: '#FDFAF6',
         }
-      }
+      },
+      typography: (theme) => ({
+        brand: {
+          css: [
+            {
+              a: {
+                color: theme('colors.brand.red.900'),
+                textDecoration: 'underline',
+              },
+              h2: {
+                color: theme('colors.brand.blue.900')
+              },
+              h3: {
+                color: theme('colors.brand.blue.900')
+              },
+            }
+          ]
+        },
+      }),
     },
     // colors: {
     //   white: '#FDFAF6',
     // },
     fontFamily: {
       sans: ['Inter', ...defaultTheme.fontFamily.sans],
-      serif: [...defaultTheme.fontFamily.serif]
+      serif: [...defaultTheme.fontFamily.serif],
+      title: ['Nunito Sans', ...defaultTheme.fontFamily.sans],
     },
   },
   variants: {},
   plugins: [
+    require('@tailwindcss/typography'),
     require("@tailwindcss/ui"),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),

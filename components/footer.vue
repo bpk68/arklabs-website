@@ -101,8 +101,8 @@
           <a href="https://uk.trustpilot.com/review/ark-labs.co.uk" target="_blank" rel="noopener">Trustpilot</a>
         </div>
         <!-- End TrustBox widget -->
-        <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-          &copy; 2021 Ark Labs Ltd. All rights reserved.
+        <p class="mt-8 text-sm text-gray-400 md:mt-0 md:order-1 md:text-right">
+          &copy; Ark Labs Ltd. All rights reserved. Registered in England &amp; Wales <br /> Company number: 13589051. VAT number: GB391973943.
         </p>
       </div>
     </div>

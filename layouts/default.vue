@@ -8,18 +8,17 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+
 export default {
   head: {
-    title: "Shopify design, migration & marketing in York and Leeds | Headless e-commerce | Ark Labs",
+    title: 'Shopify design, migration & marketing in York and Leeds | Headless e-commerce | Ark Labs',
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Nuxt.js with TailwindUI example"
-      }
+        content: 'At Ark Labs, we\'re a Shopify partner agency who build Shopify websites for clients in Selby, Leeds, York, Yorkshire'
+      },
     ]
   }
 };
