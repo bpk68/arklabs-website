@@ -1,0 +1,12 @@
+
+html, body {
+  /*background-color: #243544;*/
+  /*color: #fdfaf6 !important;*/
+}
+h1, h2, h3 {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+}
+h1 {
+  font-weight: 900;
+}
