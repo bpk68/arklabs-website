@@ -7,7 +7,7 @@
             <div class="lg:py-24">
               <h1 class="mt-4 text-4xl font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-5xl">
                 <span class="block">A Yorkshire <span class="underline" style="text-decoration-color: #E62B4A;">Shopify agency</span> who create</span>
-                <span class="block text-brand-blue-50">successful e-commerce solutions</span>
+                <span class="block text-brand-blue-50">e-commerce solutions that convert</span>
               </h1>
               <p class="mt-3 text-base text-brand-cream sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 We're a close-knit team of expert Shopify developers, designers and marketing strategists.
