@@ -191,7 +191,7 @@ const people = [
           <p>You can read more about Rob on his own <a href="https://robkendal.co.uk/" target="_blank">dedicated website</a></p>
         `,
     twitterUrl: 'https://twitter.com/kendalmintcode',
-    linkedinUrl: 'https://www.linkedin.com/in/rkendal/',
+    linkedinUrl: 'https://www.linkedin.com/in/robkendal/',
     websiteUrl: 'https://robkendal.co.uk',
   }
 ];
