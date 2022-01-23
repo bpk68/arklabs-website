@@ -11,11 +11,14 @@
         </p>
       </div>
       <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 class="sr-only">A better way to send money.</h2>
         <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
-          <div v-for="feature in features" :key="feature.name" class="bg-cool-gray-700 shadow-sm rounded-xl p-4">
+          <div
+              v-for="feature in features"
+              :key="feature.name"
+              class="bg-cool-gray-700 shadow-sm rounded-xl p-4 text-center lg:text-left"
+          >
             <dt>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-red-900 text-white font-extrabold">
+              <div class="mx-auto lg:mx-0 flex items-center justify-center h-12 w-12 rounded-md bg-brand-red-900 text-white font-extrabold">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" v-html="feature.icon" />
               </div>
               <h3 class="mt-5 text-2xl font-medium text-white">{{ feature.name }}</h3>

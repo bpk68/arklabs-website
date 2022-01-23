@@ -44,18 +44,18 @@
 import Vue from 'vue';
 import { generateSocialMeta} from '~/lib/utils';
 
-const title = '';
-const description = '';
+const title = 'Contact Ark Labs | Shopify developer in York, Selby, Leeds and Hull';
+const description = 'Contact Ark Labs, a specialist headless e-commerce developer in York. Let\'s talk about your next e-commerce project or Shopify website';
 
 export default Vue.extend({
   head() {
     return {
-      title: "Contact Ark Labs | Shopify developer in York, Selby, Leeds and Hull",
+      title,
       meta: [
         {
           hid: "description",
           name: "description",
-          content: "Contact Ark Labs, a specialist headless e-commerce developer in York. Let's talk about your next e-commerce project or Shopify website"
+          content: description,
         },
         ...generateSocialMeta(title, description, this?.$route?.path)
       ]

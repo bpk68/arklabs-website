@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="pt-10 bg-brand-blue-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+    <div class="pt-10 bg-brand-blue-900 sm:pt-16 lg:pt-8 lg:pb-14 md:overflow-hidden">
       <div class="mx-auto max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-2 lg:gap-8">
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
@@ -13,7 +13,7 @@
                 We're a close-knit team of expert Shopify developers, designers and marketing strategists.
               </p>
               <div class="mt-10 sm:mt-12">
-                <div class="sm:flex">
+                <div class="sm:flex sm:justify-center lg:justify-start">
                   <div class="sm:w-1/3">
                     <a
                         href="#intro"

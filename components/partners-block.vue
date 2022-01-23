@@ -10,7 +10,7 @@
           We’ve worked with some amazing clients (just like you) across Yorkshire, the UK, and beyond.
         </p>
       </div>
-      <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+      <div class="mt-6 grid grid-cols-1 gap-0.5 md:grid-cols-3 lg:mt-8">
         <div class="col-span-1 flex justify-center">
           <img class="" src="/partners/north-yorkshire-council.png" alt="North Yorkshire County Council" />
         </div>

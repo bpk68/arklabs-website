@@ -1,5 +1,8 @@
 <template>
-  <div class="bg-brand-blue-900 relative bg-left-top bg-no-repeat" style="background-image: url(/logos/square-1.svg)">
+  <div
+    class="bg-brand-blue-900 relative bg-left-top bg-no-repeat"
+    style="background-image: url(/logos/square-1.svg)"
+  >
     <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-extrabold text-brand-cream sm:text-4xl">
         Let’s start with a chat

@@ -92,16 +92,16 @@
           </a>
         </div>
       </div>
-      <div class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
+      <div class="mt-8 border-t border-gray-200 pt-8 lg:flex lg:items-center lg:justify-between text-center lg:text-left">
         <div>
-          <img class="w-40" src="/logos/2.svg" alt="Ark Labs" />
+          <img class="w-40 mx-auto lg:mx-0" src="/logos/2.svg" alt="Ark Labs" />
         </div>
         <!-- TrustBox widget - Micro Review Count -->
         <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="619b4f88221fc2091eb947a5" data-style-height="24px" data-style-width="100%" data-theme="light" data-stars="1,2,3,4,5" data-no-reviews="hide" data-scroll-to-list="true" data-allow-robots="true" data-min-review-count="10">
           <a href="https://uk.trustpilot.com/review/ark-labs.co.uk" target="_blank" rel="noopener">Trustpilot</a>
         </div>
         <!-- End TrustBox widget -->
-        <p class="mt-8 text-sm text-gray-400 md:mt-0 md:order-1 md:text-right">
+        <p class="mt-8 text-sm text-gray-400 md:mt-0 md:order-1 lg:text-right">
           &copy; Ark Labs Ltd. All rights reserved. Registered in England &amp; Wales <br /> Company number: 13589051. VAT number: GB391973943.
         </p>
       </div>

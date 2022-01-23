@@ -105,7 +105,10 @@
               </div>
             </div>
             <div>
-              <button type="submit" class="inline-flex justify-center py-3 px-6 border transition transition-colors duration-300 ease-in-out border-transparent shadow-sm text-base font-medium rounded-md text-white bg-brand-red-900 hover:bg-brand-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-red-900">
+              <button
+                type="submit"
+                class="w-full md:w-auto inline-flex justify-center py-3 px-6 border transition transition-colors duration-300 ease-in-out border-transparent shadow-sm text-base font-medium rounded-md text-white bg-brand-red-900 hover:bg-brand-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-red-900"
+              >
                 Send
               </button>
             </div>
