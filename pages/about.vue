@@ -329,7 +329,7 @@ const people = [
           web development practices. He's also a published author on subjects such as Beginners Guide to React.</p>
           <p>You can read more about Rob on his own <a href="https://robkendal.co.uk/" target="_blank">dedicated website</a></p>
         `,
-    mastodonUrl: 'https://indieweb.social/web/@kendalmintcode',
+    mastodonUrl: 'https://indieweb.social/@kendalmintcode',
     linkedinUrl: 'https://www.linkedin.com/in/robkendal/',
     websiteUrl: 'https://robkendal.co.uk',
   },
