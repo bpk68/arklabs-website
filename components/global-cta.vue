@@ -1,10 +1,8 @@
 <template>
-  <div class="bg-brand-purple-900 relative overflow-hidden">
-    <img
-      src="/logos/k-tech-circle.svg"
-      alt="colourful circles representing K-tech"
-      class="z-0 absolute -left-[200px] -bottom-[100px] -rotate-45"
-    />
+  <div
+    class="bg-brand-purple-900 relative overflow-hidden"
+    style="background-image: (/logos/k-tech-circle.svg);background-repeat: no-repeat;background-position: -8rem 8rem;"
+  >
     <div
       class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8"
     >
