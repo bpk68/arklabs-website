@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="bg-brand-blue-900 text-brand-cream">
+    <div class="bg-brand-purple-900 text-brand-cream">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1
-            class="font-bold text-white bg-brand-blue-400 rounded-2xl font-sans uppercase py-1 px-3 inline-block"
+            class="font-bold text-brand-purple-900 bg-brand-pink-400 rounded-2xl font-sans uppercase py-1 px-3 inline-block mb-2"
           >
-            About Ark Labs
+            About K-Tech
           </h1>
           <p
             class="mt-1 text-4xl font-extrabold sm:text-5xl lg:text-6xl font-title"
           >
             Meet your new Shopify partner
           </p>
-          <p class="max-w-xl mt-5 mx-auto text-xl text-brand-blue-50">
+          <p class="max-w-xl mt-5 mx-auto text-xl text-brand-cream">
             We're a Yorkshire-based Shopify agency with clients across the UK
             and United States.
           </p>
@@ -31,7 +31,7 @@
             class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
           >
             <div
-              class="absolute inset-y-0 right-1/2 w-full bg-brand-red-50 rounded-r-3xl lg:right-72"
+              class="absolute inset-y-0 right-1/2 w-full bg-brand-pink-100/50 rounded-r-3xl lg:right-72"
             />
             <svg
               class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
@@ -79,10 +79,10 @@
                 alt="Andrea Hall Shopify website screenshot"
               />
               <div
-                class="absolute inset-0 bg-brand-red-400 mix-blend-multiply"
+                class="absolute inset-0 bg-brand-pink-400 mix-blend-multiply"
               />
               <div
-                class="absolute inset-0 bg-gradient-to-t from-brand-red-500 via-brand-red-500 opacity-90"
+                class="absolute inset-0 bg-gradient-to-t from-brand-purple-900 via-brand-pink-400 opacity-90"
               />
               <div class="relative px-8">
                 <blockquote class="mt-8">
@@ -90,7 +90,7 @@
                     class="relative text-lg font-medium text-white md:flex-grow"
                   >
                     <svg
-                      class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-brand-red-400"
+                      class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-brand-pink-400"
                       fill="currentColor"
                       viewBox="0 0 32 32"
                       aria-hidden="true"
@@ -100,16 +100,16 @@
                       />
                     </svg>
                     <p class="relative">
-                      Ark have been managing my website for years. I trust them
-                      implicitly to know what system is best for my business,
-                      and to simplify the process for me. It feels like a
-                      colleague relationship rather than a supplier, and the
-                      quality of support, and patience is invaluable.
+                      K-Tech have been managing my website for years. I trust
+                      them implicitly to know what system is best for my
+                      business, and to simplify the process for me. It feels
+                      like a colleague relationship rather than a supplier, and
+                      the quality of support, and patience is invaluable.
                     </p>
                   </div>
 
                   <footer class="mt-4">
-                    <p class="text-base font-semibold text-brand-red-400">
+                    <p class="text-base font-semibold text-brand-pink-400">
                       Andrea Hall, owner at Andrea Hall Design
                     </p>
                   </footer>
@@ -129,7 +129,7 @@
             </h2>
             <div class="mt-6 text-gray-500 space-y-6">
               <p class="text-lg">
-                Ark Labs was founded on the belief that e-commerce could be
+                K-Tech was founded on the belief that e-commerce could be
                 better. From winning customer experiences that support your new
                 e-commerce business, to the best client support around, we're
                 here to help you launch your next e-commerce store.
@@ -153,7 +153,7 @@
       </div>
     </div>
 
-    <div class="bg-brand-blue-400">
+    <div class="bg-brand-blue-600">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-white">
           Frequently asked questions
@@ -209,7 +209,7 @@
                     <div class="space-y-4">
                       <div class="text-lg leading-6 font-medium space-y-1">
                         <h3 class="text-brand-blue-900">{{ person.name }}</h3>
-                        <p class="text-brand-blue-400">{{ person.role }}</p>
+                        <p class="text-brand-pink-400">{{ person.role }}</p>
                       </div>
                       <div
                         class="text-lg text-gray-500 prose prose-brand prose-lg"
@@ -313,19 +313,19 @@ import Vue from 'vue';
 import { generateSocialMeta } from '~/lib/utils';
 
 const title =
-  'About Ark Labs, Shopify e-commerce agency | Shopify websites in York, Leeds, Hull';
+  'About K-Tech, Shopify e-commerce agency | Shopify websites in York, Leeds, Hull, and Wakefield';
 const description =
-  "We're Ark Labs, a Shopify partner and agency specialising in headless e-commerce websites. We work with clients remotely from our offices in Selby, York, North Yorkshire";
+  "We're K-Tech, a Shopify partner and agency specialising in headless e-commerce websites. We work with clients remotely from our offices in Selby, York, North Yorkshire";
 const people = [
   {
     name: 'Rob Kendal',
-    role: 'Founder / Managing Director',
+    role: 'Founder / Owner',
     imageUrl: '/profiles/rob-kendal.jpeg',
     bio: `
           <p>Rob has close to two decades in web development and e-commerce, starting in the early days of the web,
           building internal web apps and dedicated systems for the NHS, through to developing marketing-led websites
           for organisations such as North Yorkshire County Council.</p>
-          <p>Beyond founding and running Ark Labs, Rob can be found creating helpful content on Shopify, the Jamstack, and modern
+          <p>Beyond founding and running K-Tech, Rob can be found creating helpful content on Shopify, the Jamstack, and modern
           web development practices. He's also a published author on subjects such as Beginners Guide to React.</p>
           <p>You can read more about Rob on his own <a href="https://robkendal.co.uk/" target="_blank">dedicated website</a></p>
         `,

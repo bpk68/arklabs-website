@@ -5,23 +5,24 @@
     </div>
     <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
       <div
-        class="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12"
+        class="bg-brand-purple-100/50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12"
       >
         <div class="max-w-lg mx-auto">
           <h2 class="text-2xl font-extrabold text-brand-blue-900 sm:text-3xl">
             Get in touch
           </h2>
-          <p class="mt-3 text-lg leading-6 text-gray-500">
+          <p class="mt-3 text-lg leading-6 text-gray-700">
             We're always happy to hear from new and existing clients. Drop us a
             line below and we'll be in touch within one business day.
           </p>
-          <dl class="mt-8 text-base text-gray-500">
+          <dl class="mt-8 text-base text-gray-700">
             <div>
               <dt class="sr-only">Office</dt>
               <dd>
-                <p>50 Micklegate</p>
-                <p>Selby</p>
-                <p>YO8 4EQ</p>
+                <p>Wayside</p>
+                <p>Ackworth</p>
+                <p>Pontefract</p>
+                <p>WF7 7JD</p>
               </dd>
             </div>
             <div class="mt-6">
@@ -61,7 +62,7 @@
                     d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
                   />
                 </svg>
-                <span class="ml-3"> hello@ark-labs.co.uk </span>
+                <span class="ml-3"> hello@k-tech.systems </span>
               </dd>
             </div>
           </dl>
@@ -167,12 +168,7 @@
               </div>
             </div>
             <div>
-              <button
-                type="submit"
-                class="w-full md:w-auto inline-flex justify-center py-3 px-6 border transition transition-colors duration-300 ease-in-out border-transparent shadow-sm text-base font-medium rounded-md text-white bg-brand-red-900 hover:bg-brand-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-red-900"
-              >
-                Send
-              </button>
+              <button type="submit" class="btn btn-pink px-6">Send</button>
             </div>
           </form>
         </div>

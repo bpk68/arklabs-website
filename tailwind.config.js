@@ -9,16 +9,20 @@ module.exports = {
     `layouts/**/*.vue`,
     `pages/**/*.vue`,
     `plugins/**/*.{js,ts}`,
-    `nuxt.config.{js,ts}`
+    `nuxt.config.{js,ts}`,
   ],
   theme: {
     extend: {
       colors: {
+        text: {
+          link: '#06b6d4',
+        },
         brand: {
           blue: {
             900: '#243544',
-            400: '#547DA0',
-            50: '#A1B9CE',
+            600: '#5C7D9B',
+            400: '#5ce2e6',
+            50: '#B7FBFD',
           },
           red: {
             900: '#E62B4A',
@@ -27,25 +31,48 @@ module.exports = {
             400: '#F291A2',
             50: '#FDEDEF',
           },
+          purple: {
+            900: '#3e3355',
+            400: '#7E6E9F',
+            100: '#E3D5FF',
+          },
+          pink: {
+            900: '#9F5281',
+            400: '#ff8bd2',
+            100: '#F6C0E1',
+          },
+          yellow: {
+            900: '#E8BA16',
+            400: '#ffde69',
+            100: '#FFEDAE',
+          },
+          green: {
+            900: '#87BF26',
+            400: '#bef264',
+            100: '#E7FFBD',
+          },
           cream: '#FDFAF6',
-        }
+        },
       },
       typography: (theme) => ({
         brand: {
           css: [
             {
               a: {
-                color: theme('colors.brand.red.900'),
+                color: theme('colors.text.link'),
                 textDecoration: 'underline',
+                '&:hover': {
+                  color: theme('colors.brand.blue.400'),
+                },
               },
               h2: {
-                color: theme('colors.brand.blue.900')
+                color: theme('colors.brand.blue.900'),
               },
               h3: {
-                color: theme('colors.brand.blue.900')
+                color: theme('colors.brand.blue.900'),
               },
-            }
-          ]
+            },
+          ],
         },
       }),
     },
@@ -61,8 +88,8 @@ module.exports = {
   variants: {},
   plugins: [
     require('@tailwindcss/typography'),
-    require("@tailwindcss/ui"),
+    require('@tailwindcss/ui'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
-  ]
-}
+  ],
+};

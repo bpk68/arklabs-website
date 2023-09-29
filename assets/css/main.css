@@ -1,12 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html, body {
-  /*background-color: #243544;*/
-  /*color: #fdfaf6 !important;*/
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/space-grotesk-v13-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/space-grotesk-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-h1, h2, h3 {
-  font-family: 'Nunito Sans';
-  font-weight: 800;
+/* space-grotesk-700 - latin */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('/fonts/space-grotesk-v13-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/space-grotesk-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-h1 {
-  font-weight: 900;
+
+@layer base {
+  :root {
+    font-size: 1.125em;
+    line-height: 1.85;
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    font-family: 'Space Grotesk', 'sans-serif';
+    font-weight: 400;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: 'Space Grotesk', 'sans-serif';
+    font-weight: 700;
+  }
+  h1 {
+    font-weight: 800;
+  }
+
+  .heading-1 {
+    @apply font-bold text-text-heading text-4xl md:text-5xl pt-4 pb-2;
+  }
+
+  .heading-2 {
+    @apply font-bold text-text-heading text-2xl md:text-3xl pt-4 pb-2 mb-4;
+  }
+
+  .heading-3 {
+    @apply font-medium text-text-heading text-xl md:text-2xl pt-4 pb-2 mb-4;
+  }
+}
+
+@layer components {
+  a:not(.unset):not(code *) {
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    background-position: 0 100%;
+    background-image: linear-gradient(
+      to right,
+      theme('colors.text.link'),
+      theme('colors.text.link')
+    );
+  }
+
+  a:not(.unset):not(code *):hover {
+    color: theme('colors.text.link');
+  }
+  .btn {
+    @apply text-brand-purple-900 bg-brand-cream border-2 border-brand-purple-900 hover:bg-brand-purple-900 hover:text-white  inline-flex items-center justify-center px-4 py-2 text-lg font-medium rounded-md transition-all duration-300 ease-in-out;
+  }
+  .btn-outline {
+    @apply text-brand-cream border-brand-cream bg-transparent hover:bg-brand-cream hover:text-brand-purple-900;
+  }
+  .btn-primary {
+    @apply text-brand-cream bg-text-link hover:bg-brand-blue-400 border-transparent;
+  }
+  .btn-primary-outline {
+    @apply text-white bg-transparent hover:bg-brand-blue-400;
+  }
+  .btn-red {
+    @apply text-white bg-brand-red-900 hover:bg-brand-red-500;
+  }
+  .btn-pink {
+    @apply text-brand-purple-900 bg-brand-pink-400 hover:bg-brand-pink-400/70 border-brand-pink-400;
+  }
 }
