@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="pt-10 bg-brand-blue-900 sm:pt-16 lg:pt-8 lg:pb-14 md:overflow-hidden"
+      class="pt-10 bg-brand-purple-900 sm:pt-16 lg:pt-8 lg:pb-14 md:overflow-hidden"
     >
       <div class="mx-auto max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-2 lg:gap-8">
@@ -19,7 +19,7 @@
                   >
                   who create</span
                 >
-                <span class="block text-brand-blue-50"
+                <span class="block text-brand-blue-400"
                   >e-commerce solutions that convert</span
                 >
               </h1>
@@ -34,7 +34,7 @@
                   <div class="sm:w-1/3">
                     <a
                       href="#intro"
-                      class="transition-all duration-300 ease-in-out block w-full py-3 px-4 border border-2 border-brand-red-900 rounded-md shadow bg-brand-red-900 text-white text-lg font-medium hover:bg-brand-red-500 hover:border-brand-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-red-900"
+                      class="btn btn-pink block w-full py-3 px-4"
                     >
                       Find out more
                     </a>
@@ -42,7 +42,7 @@
                   <div class="mt-3 sm:mt-0 sm:ml-3 sm:w-1/3">
                     <NuxtLink
                       to="/contact"
-                      class="transition-all duration-300 ease-in-out block w-full py-3 px-4 rounded-md shadow border border-2 border-brand-cream font-bold text-brand-cream text-lg font-medium hover:bg-brand-cream hover:text-brand-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-cream focus:ring-offset-gray-900"
+                      class="btn btn-outline block w-full py-3 px-4"
                     >
                       Let's talk
                     </NuxtLink>
@@ -58,7 +58,7 @@
               <img
                 class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/online-shopping.svg"
-                alt="Ark Labs Shopify Experts displaying an e-commerce website on a mobile device"
+                alt="K-Tech Shopify Experts displaying an e-commerce website on a mobile device"
               />
             </div>
           </div>
@@ -83,9 +83,9 @@ import Vue from 'vue';
 import { generateSocialMeta } from '~/lib/utils';
 
 const title =
-  'Shopify design, migration & marketing in York and Leeds | Headless e-commerce | Ark Labs';
+  'Shopify design, migration & marketing in York and Leeds | Headless e-commerce | K-Tech';
 const description =
-  "At Ark Labs, we're a Shopify partner agency who build Shopify websites for clients in Selby, Leeds, York, Yorkshire";
+  "At K-Tech, we're a Shopify partner agency who build Shopify websites for clients in Wakefield, Leeds, York, Yorkshire";
 
 export default Vue.extend({
   head() {

@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-brand-blue-900 relative">
-    <div class="bg-brand-blue-900 py-6">
+  <header class="bg-brand-purple-900 relative">
+    <div class="bg-brand-purple-900 py-6">
       <nav
         class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
         aria-label="Global"
@@ -8,13 +8,11 @@
         <div class="flex items-center justify-between flex-1">
           <div class="flex items-center justify-between w-full md:w-auto">
             <NuxtLink to="/">
-              <span class="sr-only"
-                >Ark Labs: Shopify experts in Yorkshire</span
-              >
+              <span class="sr-only">K-Tech: Shopify experts in Yorkshire</span>
               <img
                 class="h-16 sm:w-auto"
-                src="/logos/ark-labs-logo.png"
-                alt="Ark Labs logo"
+                src="/logos/k-tech-logo-dark.png"
+                alt="K-Tech logo"
               />
             </NuxtLink>
             <div class="-mr-2 flex items-center md:hidden">
@@ -53,10 +51,7 @@
           </div>
         </div>
         <div class="hidden md:flex md:items-center md:space-x-6">
-          <NuxtLink
-            to="/contact"
-            class="inline-flex items-center justify-center px-4 py-1 border border-transparent text-lg font-medium rounded-md text-white bg-brand-red-900 hover:bg-brand-red-500 transition-all duration-300 ease-in-out"
-          >
+          <NuxtLink to="/contact" class="btn btn-pink">
             <span class="mr-3">Let's talk</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -92,9 +87,13 @@
           <div>
             <NuxtLink to="/">
               <span class="sr-only"
-                >Ark Labs: Shopify developer in Yorkshire</span
+                >K-Tech: Shopify developer in Yorkshire</span
               >
-              <img class="h-16 w-auto" src="/logos/2.svg" alt="Ark Labs logo" />
+              <img
+                class="h-16 w-auto"
+                src="/logos/k-tech-logo-initial-dark.png"
+                alt="K-Tech logo"
+              />
             </NuxtLink>
           </div>
           <div class="">

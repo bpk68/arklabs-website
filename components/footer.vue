@@ -1,13 +1,13 @@
 <template>
   <footer class="bg-brand-cream" aria-labelledby="footer-heading">
-    <h2 id="footer-heading" class="sr-only">Ark Labs footer</h2>
+    <h2 id="footer-heading" class="sr-only">K-Tech footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-4 xl:gap-8">
         <div class="grid grid-cols-2 gap-8 xl:col-span-3">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <h3
-                class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+                class="text-sm font-semibold text-gray-500 tracking-wider uppercase"
               >
                 Solutions
               </h3>
@@ -25,7 +25,7 @@
             </div>
             <div class="mt-12 md:mt-0">
               <h3
-                class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+                class="text-sm font-semibold text-gray-500 tracking-wider uppercase"
               >
                 Support
               </h3>
@@ -45,7 +45,7 @@
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <h3
-                class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+                class="text-sm font-semibold text-gray-500 tracking-wider uppercase"
               >
                 Company
               </h3>
@@ -63,7 +63,7 @@
             </div>
             <div class="mt-12 md:mt-0">
               <h3
-                class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+                class="text-sm font-semibold text-gray-500 tracking-wider uppercase"
               >
                 Legal
               </h3>
@@ -83,7 +83,7 @@
         </div>
         <div class="mt-8 xl:mt-0">
           <h3
-            class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+            class="text-sm font-semibold text-gray-500 tracking-wider uppercase"
           >
             Tell us about your Shopify project
           </h3>
@@ -92,9 +92,9 @@
             needs.
           </p>
           <a
-            href="https://www.calendar.com/ark-labs/30-min-meeting"
+            href="https://app.hellobonsai.com/s/merobkendalcouk/quick-meeting"
             target="_blank"
-            class="transition-all duration-300 ease-in-out w-auto flex items-center justify-center max-w-md border-2 border-transparent border-brand-blue-900 rounded-md py-2 px-4 text-brand-blue-900 font-medium hover:text-white hover:bg-brand-blue-900 focus:ring-2 focus:ring-offset-2 focus:ring-brand-blue-900"
+            class="btn"
           >
             <span class="mr-3">Book a quick meeting</span>
             <svg
@@ -118,7 +118,11 @@
         class="mt-8 border-t border-gray-200 pt-8 lg:flex lg:items-center lg:justify-between text-center lg:text-left"
       >
         <div>
-          <img class="w-40 mx-auto lg:mx-0" src="/logos/2.svg" alt="Ark Labs" />
+          <img
+            class="w-20 mx-auto lg:mx-0"
+            src="/logos/k-tech-logo-white.png"
+            alt="K-Tech"
+          />
         </div>
         <!-- TrustBox widget - Micro Review Count -->
         <div
@@ -144,9 +148,13 @@
         </div>
         <!-- End TrustBox widget -->
         <p class="mt-8 text-sm text-gray-400 md:mt-0 md:order-1 lg:text-right">
-          &copy; Ark Labs Ltd. All rights reserved. Registered in England &amp;
-          Wales <br />
-          Company number: 13589051. VAT number: GB391973943.
+          &copy; K-Tech. All rights reserved. K-Tech is a trading name of Rob
+          Kendal. <br />
+          Find out more about
+          <a href="https://robkendal.co.uk" target="_blank"
+            >Rob Kendal, freelance software developer</a
+          >
+          here.
         </p>
       </div>
     </div>
@@ -155,12 +163,12 @@
 
 <script>
 const navigation = {
-  solutions: [{ name: "Case studies", href: "/case-studies" }],
-  support: [{ name: "Contact us", href: "/contact" }],
-  company: [{ name: "About", href: "/about" }],
+  solutions: [{ name: 'Case studies', href: '/case-studies' }],
+  support: [{ name: 'Contact us', href: '/contact' }],
+  company: [{ name: 'About', href: '/about' }],
   legal: [
-    { name: "Privacy", href: "/privacy" },
-    { name: "Terms", href: "/terms" },
+    { name: 'Privacy', href: '/privacy' },
+    { name: 'Terms', href: '/terms' },
   ],
 };
 
